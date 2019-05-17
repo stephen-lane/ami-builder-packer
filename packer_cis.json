@@ -50,12 +50,7 @@
         "--extra-vars",
         "ansible_python_interpreter=/usr/bin/python3"
       ],
-      "playbook_file": "ansible/playbook.yaml",
-      "role_paths": [
-        "ansible/roles/common"
-      ],
-      "playbook_dir": "ansible",
-      "galaxy_file": "ansible/requirements.yaml"
+      "playbook_file": "ansible/playbook.yaml"
     },
     {
       "type": "shell",
