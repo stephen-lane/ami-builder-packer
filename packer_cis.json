@@ -51,11 +51,12 @@
         "ansible_python_interpreter=/usr/bin/python3"
       ],
       "playbook_file": "ansible/playbook.yaml",
+      "playbook_dir": "ansible",
       "role_paths": [	
         "ansible/roles/common"	
       ],	
-      "playbook_dir": "ansible",	
-      "galaxy_file": "ansible/requirements.yaml"	
+      "galaxy_file": "ansible/requirements.yaml",
+      "inventory_groups": "frontend"
     },
     {
       "type": "shell",
