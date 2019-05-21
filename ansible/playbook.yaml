@@ -17,5 +17,5 @@
         group_name: "system_logs"
   roles:
     - common
-    - florianutz.Ubuntu1604-CIS
+    - stephen-lane.Ubuntu1604-CIS
     # - dharrisio.aws-cloudwatch-logs-agent
