@@ -59,6 +59,7 @@
       ],
       "playbook_file": "ansible/playbook.yaml",
       "playbook_dir": "ansible",
+      "staging_directory": "/home/ubuntu",
       "role_paths": [	
         "ansible/roles/common"	
       ],	
